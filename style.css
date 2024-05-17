@@ -8,7 +8,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #362c5f;
+    background-color: rgb(28, 23, 51);
 }
 
 html {
@@ -45,9 +45,10 @@ nav {
 }
 
 a {
-    color: black;
+    color: #fefdfd;
     text-decoration: none;
-    text-decoration-color: white;
+    text-decoration-color: #fefdfd;
+    font-weight: 500;
 }
 
 a:hover {
@@ -58,9 +59,10 @@ a:hover {
 }
 
 .logo {
+    color: #fefdfd;
     font-size: 3rem;
     border: #642f90a2 solid 2px;
-    background-color: #fc8a68;
+    background-color: #ff754bc2;
     padding: 0 2rem;
 }
 
@@ -170,14 +172,14 @@ section {
 
 #profilePic {
     
-    border-radius: 1000px;
+    border-radius: 400px;
     background-color: #3d306b;
 }
 
 .section__pic-container {
     display: flex;
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     margin: auto 0;
 }
 
@@ -315,7 +317,7 @@ section {
     flex: 1;
     background: #3d306b;
     border-radius: 2rem;
-    border: #a095af solid 0.1rem;
+    border: #a095af 0.1rem solid;
     text-align: center;
 }
 
@@ -331,6 +333,39 @@ section {
 }
 
 /* EXPERIENCE SECTION */
+#experience {
+    position: relative;
+}
+
 .experience-sub-title {
     color: #a095af;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+article .icon {
+    cursor: default;
 }
