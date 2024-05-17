@@ -8,6 +8,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: #2b153b;
 }
 
 html {
@@ -16,7 +17,7 @@ html {
 }
 
 p {
-    color: rgb(85, 85, 85);
+    color: rgb(179, 179, 179);
 }
 
 /* TRANSITION (whenever clicked will change between two styles) */ 
@@ -202,7 +203,15 @@ section {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    color: #652F90;
+    color: #6f36bc;
+}
+
+.about-title {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: #000000;
 }
 
 .socials-container {
@@ -268,3 +277,40 @@ section {
 }
 
 /* ABOUT SECTION*/
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers, 
+.about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: #652F90 solid 3px;
+}
