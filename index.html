@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Daew</div> <!-- Maybe picture here or Logo? -->
+        <div class="logo">Daew.dev</div> <!-- Maybe picture here or Logo? -->
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -21,7 +21,7 @@
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">Daew</div>
+        <div class="logo">daew.dev</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -75,7 +75,8 @@
             <div class="section__pic-container">
                 <img 
                 src="./assets/about-pic.png" 
-                alt="Profile picture">
+                alt="Profile picture"
+                class="about-pic">
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
@@ -86,7 +87,9 @@
                         Import Export Peter Hoch GmbH</p>
                     </div>
                     <div class="details-container">
-                        <img src="./assets/education.png" alt="education-icon" class="icon">
+                        <img src="./assets/education.png" 
+                        alt="education-icon" 
+                        class="icon">
                         <h3>Education</h3>
                         <p>German Abitur<br>Apprenticeship as a wholesales and export clerk</p>
                     </div>
@@ -104,6 +107,29 @@
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
         onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Take a look at my</p>
+        <h1 class="about-title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Frontend Development</h2> 
+                    <div class="article-container">
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="Experience-icon" 
+                            class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p> <!-- implement in progress... animation next to some languages-->
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <script src="script.js"></script>
 </body>
