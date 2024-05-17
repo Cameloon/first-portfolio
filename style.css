@@ -369,3 +369,29 @@ article {
 article .icon {
     cursor: default;
 }
+
+/* PROJECT SECTION*/
+#projects {
+    position: relative;
+}
+
+.color-container {
+    border-color: #a095af;
+    background-color: #3d306b;
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: #a095af;
+}
+
+.project-btn {
+    color: black;
+    background-color: #3d306b;
+}
