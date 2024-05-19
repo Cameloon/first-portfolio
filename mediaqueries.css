@@ -97,15 +97,16 @@
 
 @media screen and (max-width: 428px) {
     #profile {
-        height: 100vh;
+        height: 90vh;
         margin-bottom: 0;
     }
+    
     section {
         margin: 0 4rem;
         height: 20vh;
     }
     .section__pic-container {
-        margin: 0.5rem 0 2.5rem;
+        margin: 0.5rem 3.5rem 2.5rem;
     }
     .section__text__p1 {
         font-size: 0.80rem;
@@ -134,8 +135,20 @@
         height: auto;
     }
     #about {
-        height: 100vh;
         margin-bottom: 0;
+        margin: 0 4rem;
+        height: 140vh;
+    }
+    .about-containers {
+        font-size: 0.75rem;
+        gap: 1rem;
+    }
+    .details-container {
+        padding: 1rem 2rem;
+        box-shadow: 0 0 15px rgb(0,0,0,0.50);
+    }
+    .details-container .icon {
+        margin: 0;
     }
 
     article {
@@ -181,9 +194,34 @@
     .text-container {
         text-align: justify;
     }
-    #contact, 
+
+    #experience {
+        height: 100vh;
+        margin-bottom: 0;
+        margin: 0 4rem;
+        height: 175vh;
+    }
+    #projects {
+        margin-bottom: 0;
+        margin: 0 4rem;
+        height: 220vh;
+    }
+
+    #contact {
+        box-sizing: border-box;
+        margin-bottom: 0;
+        margin: 0 4rem 3rem;
+        height: 50vh;
+        padding: 0;
+    }
+
     footer {
         height: 40vh;
+        
+    }
+    
+    .contact-info-container {
+        font-size: 0.5rem;
     }
     /*.about-title {
         text-align: center;
