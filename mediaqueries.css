@@ -44,6 +44,9 @@
 
 
 @media screen and (max-width: 600px) {
+    .hamburger-icon span {
+        background-color: #fefdfdda;
+    }
     #contact, 
     footer {
         height: 40vh;
@@ -135,9 +138,8 @@
         height: auto;
     }
     #about {
-        margin-bottom: 0;
         margin: 0 4rem;
-        height: 140vh;
+        height: 150vh;
     }
     .about-containers {
         font-size: 0.75rem;
@@ -201,10 +203,20 @@
         margin: 0 4rem;
         height: 175vh;
     }
+    #experience .details-container {
+        padding: 2rem 2rem;
+        box-shadow: 0 0 15px rgb(0,0,0,0.50);
+    }
+
     #projects {
         margin-bottom: 0;
         margin: 0 4rem;
         height: 220vh;
+    }
+    #projects
+     .details-container {
+        padding: 2rem 2rem 0.75rem;
+        box-shadow: 0 0 15px rgb(0,0,0,0.50);
     }
 
     #contact {
@@ -231,22 +243,4 @@
     .contact-icon {
         margin: 0;
     }
-    /*.about-title {
-        text-align: center;
-        
-    }
-    .about-containers, .experience-details-container, .contact-info-upper-container, .btn-container {
-        flex-wrap: wrap;
-        display: flex;
-        justify-content: center;
-        
-        
-    }
-    section {
-        padding-top: 2vh; if this is changedd why is it only applied to the hero-section
-        padding-bottom: 5vh; maybe take that line out because it laps over to About-section
-        height: 100vh;
-        margin: 50rem 10rem;
-        box-sizing: border-box;
-        min-height: fit-content;} ensures that things arent overlapping*/
 }
