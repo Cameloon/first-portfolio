@@ -223,6 +223,14 @@
     .contact-info-container {
         font-size: 0.5rem;
     }
+    .contact-info-upper-container {
+        margin: 1rem auto;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    .contact-icon {
+        margin: 0;
+    }
     /*.about-title {
         text-align: center;
         
