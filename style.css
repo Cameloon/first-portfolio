@@ -8,7 +8,8 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: rgb(28, 23, 51);
+    /* background-color: rgb(28, 23, 51); */
+    background-color: #1A1A1A;
 }
 
 html {
@@ -45,7 +46,7 @@ nav {
 }
 
 a {
-    color: #fefdfd;
+    color: #F6F0E2;
     text-decoration: none;
     text-decoration-color: #fefdfd;
     font-weight: 500;
@@ -53,16 +54,16 @@ a {
 
 a:hover {
     color: #652F90;
-    text-decoration: underline;
+    text-decoration: border;
     text-underline-offset: 0.5rem;
     text-decoration-color: #652F90;
 }
 
 .logo {
-    color: #fefdfd;
+    color: black;
     font-size: 3rem;
     border: #642f90a2 solid 2px;
-    background-color: #ff754bc2;
+    background-color: #F6F0E2;
     padding: 0 2rem;
 }
 
@@ -302,7 +303,9 @@ section {
 }
 
 .about-pic {
-    border-radius: 2rem;
+    padding: 2rem 0 0 0;
+    border: solid 1px #a095af;
+    border-radius: 400px;
 }
 
 .arrow {
@@ -372,6 +375,7 @@ article .icon {
 /* PROJECT SECTION*/
 #projects {
     position: relative;
+    background-color: #1A1A1A;
 }
 
 .color-container {
