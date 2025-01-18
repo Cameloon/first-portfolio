@@ -97,7 +97,7 @@
 @media screen and (max-width: 430px) {
     #profile {
         height: 75vh;
-        margin: 0 0 20rem 0;
+        margin: 0 0 17rem 0;
     }
     
     #profilePic{
@@ -131,15 +131,16 @@
     .btn-color-1:hover {
         background-color: #fefdfdda;
         color: black;
-        border: black 0.1rem solid;
-    }
-    #socials-container .icon {
+        border: black 0.1rem solid;margin: 0px;
+        padding: 0px;
         width: 2.75rem;
         height: auto;
     }
+
+
     #about {
         height: 100%;
-        margin: 0 4rem;   
+        margin: 0 3.5rem;   
     }
 
     .section__text__p1 {
@@ -150,6 +151,12 @@
         text-align: center;
         line-height: 1.25;
         margin-top: 0.5rem;
+    }
+
+    .about-pic {
+        padding: 1rem 0 0 0;
+        border: solid 1px #a095af;
+        border-radius: 400px;
     }
 
     .about-containers {
@@ -190,27 +197,34 @@
     }
     .section__pic-container {
         width: auto;
-        height: 50vw;
+        height: 45vw;
         justify-content: center;
     }
 
     .section__text {
-        width: 700;
+        width: 100%;
     }
+    
     .title {
         font-size: 2rem;
         color: #ae9dc5;
     }
+
     .text-container {
         text-align: justify;
     }
 
+    .text-container p {
+        margin: 0;
+        padding: 0;
+    }
+
     #experience {
-        height: 100vh;
+        height: 100%;
         margin-bottom: 0;
         margin: 0 4rem;
-        height: 175vh;
     }
+    
     #experience .details-container {
         padding: 2rem 2rem;
         box-shadow: 0 0 15px rgb(0,0,0,0.50);
