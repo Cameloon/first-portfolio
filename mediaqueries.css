@@ -70,9 +70,15 @@
     .experience-sub-title {
         font-size: 1.25rem;
     }
+
     .logo {
-        font-size: 1.5rem;
+        color: black;
+        font-size: 1.35rem;
+        border: #642f90a2 solid 2px;
+        background-color: #F6F0E2;
+        padding: 0 1.5rem;
     }
+
     .nav-links {
         flex-direction: column;
         gap: 0.5rem;
@@ -90,11 +96,12 @@
         font-size: 2rem;
     }
     .text-container {
-        text-align: justify;
+        text-align: justify; /* keepm justify??? stupid af*/
     }
 }
 
-@media screen and (max-width: 430px) {
+
+@media screen and (max-width: 768px) { /* maybe even set the previous to 480?*/
     #profile {
         height: 75vh;
         margin: 0 0 17rem 0;
@@ -110,6 +117,14 @@
     }
     .section__pic-container {
         margin: 0.5rem 3.5rem 2.5rem;
+    }
+
+    .icon {
+        height: 2.25rem;
+    }
+
+    .section__text {
+        margin: 4rem 0 0 0;
     }
     .section__text__p1 {
         font-size: 0.80rem;
@@ -187,9 +202,7 @@
     .experience-sub-title {
         font-size: 1.25rem;
     }
-    .logo {
-        font-size: 1.5rem;
-    }
+
     .nav-links {
         flex-direction: column;
         gap: 0.5rem;
@@ -211,7 +224,9 @@
     }
 
     .text-container {
-        text-align: justify;
+        text-align: start; /* justify causes huge spaces tho without any additional rpoerties*/
+        /* word-break: keep-all; */
+        /* word-spacing: -2px;  */
     }
 
     .text-container p {
@@ -219,10 +234,12 @@
         padding: 0;
     }
 
+
+
     #experience {
         height: 100%;
         margin-bottom: 0;
-        margin: 0 4rem;
+        margin: 0 4rem 0 3.75rem;
     }
     
     #experience .details-container {
@@ -230,10 +247,15 @@
         box-shadow: 0 0 15px rgb(0,0,0,0.50);
     }
 
+
+    .section__text__p1 {
+        font-size: 1.15rem;
+    }
+
     #projects {
         margin-bottom: 0;
-        margin: 0 4rem;
-        height: 220vh;
+        margin: 10rem 4rem 1rem;
+        height: 100%;
     }
     #projects
      .details-container {
@@ -241,17 +263,21 @@
         box-shadow: 0 0 15px rgb(0,0,0,0.50);
     }
 
+    #projects .section__text__p1 {
+        font-size: 1rem;
+    }
+
     #contact {
         box-sizing: border-box;
-        margin-bottom: 0;
-        margin: 0 4rem 3rem;
-        height: 50vh;
+        margin: 7rem 4rem 10rem;
+        height: 100%;
         padding: 0;
+        width: auto;
     }
 
     footer {
         height: 40vh;
-        
+        display: center;
     }
     
     .contact-info-container {
@@ -261,6 +287,201 @@
         margin: 1rem auto;
         gap: 1rem;
         padding: 1rem;
+        display: center;
+    }
+    .contact-icon {
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    #profile {
+        height: 75vh;
+        margin: 0 0 17rem 0;
+    }
+    
+    #profilePic{
+        height: 12rem;
+    }
+    
+    section {
+        margin: 1rem 4rem;
+        height: 20vh;
+    }
+    .section__pic-container {
+        margin: 0.5rem 3.5rem 2.5rem;
+    }
+
+    .icon {
+        height: 2.25rem;
+    }
+
+    .section__text {
+        margin: 4rem 0 0 0;
+    }
+    .section__text__p1 {
+        font-size: 0.80rem;
+    }
+    .section__text__p2 {
+        font-size: 1.3rem;
+        color: #fefdfdda;
+    }
+    .btn-container {
+        margin: 1.6rem 0 1.5rem;
+    }
+    .btn-color-2 {
+        color: #fefdfdda;
+    }
+    .btn-color-2:hover {
+        background-color: #652F90;
+        color: black;
+    }
+    .btn-color-1:hover {
+        background-color: #fefdfdda;
+        color: black;
+        border: black 0.1rem solid;margin: 0px;
+        padding: 0px;
+        width: 2.75rem;
+        height: auto;
+    }
+
+
+    #about {
+        height: 100%;
+        margin: 0 3.5rem;   
+    }
+
+    .section__text__p1 {
+        font-size: 1rem;
+    } 
+
+    #about h1 {
+        text-align: center;
+        line-height: 1.25;
+        margin-top: 0.5rem;
+    }
+
+    .about-pic {
+        padding: 1rem 0 0 0;
+        border: solid 1px #a095af;
+        border-radius: 400px;
+    }
+
+    .about-containers {
+        font-size: 0.75rem;
+        gap: 1rem;
+    }
+    .details-container {
+        padding: 1rem 2rem;
+        box-shadow: 0 0 15px rgb(0,0,0,0.50);
+    }
+    .details-container .icon {
+        margin: 0;
+    }
+
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-containers, .contact-info-upper-container, .btn-container {
+        flex-wrap: wrap;
+    }
+    .contact-info-container {
+        margin: 0;
+    }
+    .contact-info-container p, .nav-links li a {
+        font-size: 1rem;
+    }
+    .experience-sub-title {
+        font-size: 1.25rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .section__pic-container {
+        width: auto;
+        height: 45vw;
+        justify-content: center;
+    }
+
+    .section__text {
+        width: 100%;
+    }
+    
+    .title {
+        font-size: 2rem;
+        color: #ae9dc5;
+    }
+
+    .text-container {
+        text-align: start; /* justify causes huge spaces tho without any additional rpoerties*/
+        /* word-break: keep-all; */
+        /* word-spacing: -2px;  */
+    }
+
+    .text-container p {
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    #experience {
+        height: 100%;
+        margin-bottom: 0;
+        margin: 0 4rem 0 3.75rem;
+    }
+    
+    #experience .details-container {
+        padding: 2rem 2rem;
+        box-shadow: 0 0 15px rgb(0,0,0,0.50);
+    }
+
+
+    .section__text__p1 {
+        font-size: 1.15rem;
+    }
+
+    #projects {
+        margin-bottom: 0;
+        margin: 10rem 4rem 1rem;
+        height: 100%;
+    }
+    #projects
+     .details-container {
+        padding: 2rem 2rem 0.75rem;
+        box-shadow: 0 0 15px rgb(0,0,0,0.50);
+    }
+
+    #projects .section__text__p1 {
+        font-size: 1rem;
+    }
+
+    #contact {
+        box-sizing: border-box;
+        margin: 7rem 4rem 10rem;
+        height: 100%;
+        padding: 0;
+        width: auto;
+    }
+
+    footer {
+        height: 40vh;
+        display: center;
+    }
+    
+    .contact-info-container {
+        font-size: 0.5rem;
+    }
+    .contact-info-upper-container {
+        margin: 1rem auto;
+        gap: 1rem;
+        padding: 1rem;
+        display: center;
     }
     .contact-icon {
         margin: 0;

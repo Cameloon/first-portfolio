@@ -206,6 +206,7 @@ section {
     font-size: 3rem;
     display: flex;
     justify-content: center;
+    text-align: center;
     gap: 1rem;
     color: #a095af;
 }
@@ -376,6 +377,7 @@ article .icon {
 #projects {
     position: relative;
     background-color: #1A1A1A;
+    margin: 4rem 0 ;
 }
 
 .color-container {
@@ -386,7 +388,7 @@ article .icon {
 .project-img {
     border-radius: 2rem;
     width: 90%;
-    height: 90%;
+    height: 100%;
 }
 
 .project-title {
@@ -405,7 +407,7 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 100%;
 }
 
 .contact-info-upper-container {
@@ -440,7 +442,7 @@ article .icon {
 
 /* FOOTER SECTION */
 footer {
-    height: 20vh;
+    height: 20%;
     margin: 0 1rem;
 }
 
