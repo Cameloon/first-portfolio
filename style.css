@@ -167,13 +167,14 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 4rem;
     height: 90vh;
 }
 
 #profilePic {
     border-radius: 400px;
     background-color: #3d306b;
+    height: 25rem;
 }
 
 .section__pic-container {
@@ -186,24 +187,24 @@ section {
 .section__text {
     align-self: center;
     text-align: center;
+    margin-top: 5rem;
 }
 
 .section__text__p1 {
     font-weight: 200;
-}
-
-.section__text__p1 {
+    letter-spacing: -1px;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 .section__text__p2 {
-    font-size: 1.75rem;
     margin-bottom: 1rem;
+    font-size: 2.3rem;
+    font-weight: 600;
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 3.5rem;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -284,7 +285,13 @@ section {
 
 /* ABOUT SECTION*/
 #about {
+    margin: 0 5%;
     position: relative;
+    height: 60vh;
+}
+
+.about-title {
+    margin-bottom: 1rem;
 }
 
 .about-containers {
@@ -377,7 +384,6 @@ article .icon {
 #projects {
     position: relative;
     background-color: #1A1A1A;
-    margin: 4rem 0 ;
 }
 
 .color-container {
@@ -422,6 +428,7 @@ article .icon {
 
 .contact-info-container {
     display: flex;
+    align-self: center;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
