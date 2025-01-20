@@ -285,9 +285,10 @@ section {
 
 /* ABOUT SECTION*/
 #about {
-    margin: 0 5%;
+    margin: 0 5% 3rem;
     position: relative;
-    height: 60vh;
+    height: 100%;
+
 }
 
 .about-title {
@@ -345,6 +346,7 @@ section {
 /* EXPERIENCE SECTION */
 #experience {
     position: relative;
+    margin-top: 15rem;
 }
 
 .experience-sub-title {
