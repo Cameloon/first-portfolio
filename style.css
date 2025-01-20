@@ -188,8 +188,8 @@ section {
     text-align: center;
 }
 
-.section__text p {
-    font-weight: 600;
+.section__text__p1 {
+    font-weight: 200;
 }
 
 .section__text__p1 {
