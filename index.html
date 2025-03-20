@@ -9,6 +9,28 @@
 </head>
 <body>
     <nav id="desktop-nav">
+        <div class="blob-bg">
+            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                <defs>
+                  <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color: rgb(61, 48, 107);"></stop>
+                    <stop offset="100%" style="stop-color: rgb(160, 149, 175);"></stop>
+                  </linearGradient>
+                </defs>
+                <path id="blob" d="M436,291Q406,332,380,366.5Q354,401,314,423.5Q274,446,233,424Q192,402,156,383.5Q120,365,111.5,325.5Q103,286,57.5,238.5Q12,191,72.5,169Q133,147,157,107Q181,67,230,39.5Q279,12,313,60.5Q347,109,389.5,132Q432,155,449,202.5Q466,250,436,291Z" fill="url(#gradient)"></path>
+            </svg>
+        </div>
+        <div class="blob-bg-2">
+            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                <defs>
+                  <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color: rgb(61, 48, 107);"></stop>
+                    <stop offset="100%" style="stop-color: rgb(160, 149, 175);"></stop>
+                  </linearGradient>
+                </defs>
+                <path id="blob" d="M423,287Q391,324,364.5,351Q338,378,308.5,435.5Q279,493,228.5,466Q178,439,121,427Q64,415,60,356.5Q56,298,75,255Q94,212,101.5,168.5Q109,125,152,115Q195,105,233.5,88.5Q272,72,315,82.5Q358,93,393,124.5Q428,156,441.5,203Q455,250,423,287Z" fill="url(#gradient)"></path>
+            </svg>
+        </div>
         <div class="logo">Daew.dev</div> <!-- Maybe picture here or Logo? -->
         <div>
             <ul class="nav-links">
@@ -37,12 +59,26 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
+            <div class="blob">
+                <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150%" id="blobSvg">
+                <!-- fill="none" stroke-width="7px" stroke="#000000" -> for only outline-->
+                <path id="blob" d="M431.5,292.5Q454,335,410,350.5Q366,366,349.5,408.5Q333,451,291.5,437.5Q250,424,221,407Q192,390,158.5,382.5Q125,375,92,352Q59,329,52.5,289.5Q46,250,74,219.5Q102,189,115,158.5Q128,128,158.5,115Q189,102,219.5,75.5Q250,49,283.5,68.5Q317,88,348.5,104Q380,120,390.5,154Q401,188,405,219Q409,250,431.5,292.5Z" fill="#000000" >
+                    <animate attributeName="d" dur="25s" repeatCount="indefinite" 
+                    values="M431.5,292.5Q454,335,410,350.5Q366,366,349.5,408.5Q333,451,291.5,437.5Q250,424,221,407Q192,390,158.5,382.5Q125,375,92,352Q59,329,52.5,289.5Q46,250,74,219.5Q102,189,115,158.5Q128,128,158.5,115Q189,102,219.5,75.5Q250,49,283.5,68.5Q317,88,348.5,104Q380,120,390.5,154Q401,188,405,219Q409,250,431.5,292.5Z;
+                    M460.5,286.5Q427,323,425.5,373.5Q424,424,378.5,437Q333,450,291.5,455Q250,460,219.5,429Q189,398,160,383.5Q131,369,96,348.5Q61,328,48,289Q35,250,45.5,210Q56,170,65.5,122.5Q75,75,128.5,80Q182,85,216,78.5Q250,72,279.5,89.5Q309,107,335.5,122.5Q362,138,388.5,160Q415,182,454.5,216Q494,250,460.5,286.5Z;
+                    M460.5,298Q481,346,444,376.5Q407,407,374.5,439.5Q342,472,296,466.5Q250,461,212.5,446.5Q175,432,141.5,412Q108,392,104,352Q100,312,92,281Q84,250,53,203Q22,156,61,128Q100,100,139,88.5Q178,77,214,80Q250,83,289.5,71Q329,59,351.5,92.5Q374,126,410,147.5Q446,169,443,209.5Q440,250,460.5,298Z;
+                    M443.5,290Q444,330,412.5,355.5Q381,381,346.5,390.5Q312,400,281,419Q250,438,219,418.5Q188,399,149.5,394Q111,389,96,354.5Q81,320,69,285Q57,250,65.5,213.5Q74,177,104.5,156Q135,135,152,95Q169,55,209.5,63Q250,71,295,52Q340,33,374,62.5Q408,92,424.5,131.5Q441,171,442,210.5Q443,250,443.5,290Z;
+                    M445.5,290Q442,330,410,354Q378,378,348,395.5Q318,413,284,438Q250,463,206.5,461.5Q163,460,122.5,439Q82,418,70.5,373.5Q59,329,59.5,289.5Q60,250,79.5,219Q99,188,96.5,141Q94,94,130.5,71.5Q167,49,208.5,27Q250,5,297,14.5Q344,24,358,76Q372,128,409.5,148.5Q447,169,448,209.5Q449,250,445.5,290Z;
+                    M431.5,292.5Q454,335,410,350.5Q366,366,349.5,408.5Q333,451,291.5,437.5Q250,424,221,407Q192,390,158.5,382.5Q125,375,92,352Q59,329,52.5,289.5Q46,250,74,219.5Q102,189,115,158.5Q128,128,158.5,115Q189,102,219.5,75.5Q250,49,283.5,68.5Q317,88,348.5,104Q380,120,390.5,154Q401,188,405,219Q409,250,431.5,292.5Z"></animate>
+                </path>
+              </svg>
+            </div>
             <img src="./assets/me.png" alt="My profile picture" id="profilePic">
         </div>
         <div class="section__text">
             <p class="section__text__p1">Nice to meet you, I'm</p>
             <h1 class="title">Daniel Beljaew</h1>
-            <p class="section__text__p2"">Fullstack Developer</p>
+            <p class="section__text__p2"">Creative Developer</p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/CV.pdf')">GET MY CV</button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
@@ -303,11 +339,23 @@
                 <div class="article-container">
                     <img src="./assets/repLog.png" alt="Project 3" class="project-img">
                 </div>
-                <h2 class="experience-sub-title project-title">C.o.O. Generator</h2>
+                <h2 class="experience-sub-title project-title">Certificate of origin generator</h2>
                 <div class="btn-container">
                     <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com/Cameloon/replLog'">
                     GitHub</button>
                     <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/Cameloon/first-portfolio'">
+                        Live Demo</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/repLog.png" alt="Project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Steganography Image En-/decoder</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-1 project-btn" onclick="location.href='https://github.com/Cameloon/steganography'">
+                    GitHub</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://cameloon.github.io/steganography/'">
                         Live Demo</button>
                 </div>
             </div>

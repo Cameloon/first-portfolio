@@ -10,6 +10,7 @@ body {
     font-family: "Poppins", sans-serif;
     /* background-color: rgb(28, 23, 51); */
     background-color: #1A1A1A;
+    overflow-x: hidden;
 }
 
 html {
@@ -149,6 +150,25 @@ a:hover {
     transform: none;
 }
 
+.blob-bg {
+    /*display: none; */
+    position: absolute;
+    z-index: -1;
+    left: -35%;
+    top: -75%;
+    width: 100rem;
+    transform: rotate(40deg);
+}
+
+.blob-bg-2 {
+    /*display: none; */
+    position: absolute;
+    z-index: -1;
+    right: -40%;
+    top: -10%;
+    width: 100rem;
+    transform: rotate(20deg);
+} 
 /* SECTIONS */
 section {
     padding-top: 4vh;
@@ -173,9 +193,54 @@ section {
 
 #profilePic {
     border-radius: 400px;
-    background-color: #3d306b;
-    height: 25rem;
+    /*border: #a095af solid 1px; 
+    background-color: #3d306b; */
+    height: 24rem;
 }
+
+.blob {
+    z-index: -1;
+    position: absolute;
+    top: 29%;
+    left: 19%;
+    height: 10%;
+    width: 25%;
+    /* background-color: #000000;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+    animation: blobber 10s ease-in-out infinite alternate; */
+}
+
+/* @keyframes blobber {
+    0% {
+        border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+        background-color: #000000;
+    }
+
+    14% {
+        border-radius: 45% 60% 54% 46% / 49% 60% 40% 51%;
+        background-color: #000000;
+    }
+
+    36% {
+        border-radius: 50% 46% 2% 62% / 49% 70% 30% 51%;
+        background-color: #000000;
+    }
+
+    52% {
+        border-radius: 70% 39% 55% 45% / 61% 38% 62% 39%;
+        background-color: #000000;
+    }
+
+    80% {
+        border-radius: 61% 39% 15% 33% / 70% 50% 50% 30%;
+        background-color: #000000;
+    }
+
+    100% {
+        border-radius: 42% 37% 100% 46% / 55% 48% 52% 45%;
+        background-color: #000000;
+    }
+} */
 
 .section__pic-container {
     display: flex;
