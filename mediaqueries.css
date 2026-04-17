@@ -461,10 +461,6 @@
         background-color: #fefdfdda;
         color: black;
         border: black 0.1rem solid;
-        margin: 0px;
-        padding: 0px;
-        width: 2.75rem;
-        height: auto;
     }
 
 
@@ -665,10 +661,7 @@
     .btn-color-1:hover {
         background-color: #fefdfdda;
         color: black;
-        border: black 0.1rem solid;margin: 0px;
-        padding: 0px;
-        width: 2.75rem;
-        height: auto;
+        border: black 0.1rem solid;
     }
 
     #about {
@@ -883,10 +876,7 @@
     .btn-color-1:hover {
         background-color: #fefdfdda;
         color: black;
-        border: black 0.1rem solid;margin: 0px;
-        padding: 0px;
-        width: 2.75rem;
-        height: auto;
+        border: black 0.1rem solid;
     }
 
 
