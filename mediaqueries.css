@@ -460,11 +460,7 @@
     .btn-color-1:hover {
         background-color: #fefdfdda;
         color: black;
-        border: black 0.1rem solid;
-        margin: 0px;
-        padding: 0px;
-        width: 2.75rem;
-        height: auto;
+        border: black 0.12rem solid;
     }
 
 
@@ -663,12 +659,9 @@
     }
 
     .btn-color-1:hover {
-        background-color: #fefdfdda;
-        color: black;
-        border: black 0.1rem solid;margin: 0px;
-        padding: 0px;
-        width: 2.75rem;
-        height: auto;
+        background-color: #652F90;
+        color: white;
+        border: black 0.12rem solid;
     }
 
     #about {
@@ -882,12 +875,9 @@
     }
     .btn-color-1:hover {
         background-color: #fefdfdda;
-        color: black;
-        border: black 0.1rem solid;margin: 0px;
-        padding: 0px;
-        width: 2.75rem;
-        height: auto;
-    }
+        color: white;
+        border: black 0.13rem solid;
+     }
 
 
     #about {
